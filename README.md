@@ -1,5 +1,10 @@
 # churn-past-vs-predictions
 
+## Overview
+- Past data dashboard overview - [Click Here](https://public.tableau.com/app/profile/santhosh.kasam3498/viz/TelcoSQL/Dashboard1)
+- Future predictions - [Click Here](https://public.tableau.com/app/profile/santhosh.kasam3498/viz/TelcoML/Dashboard1?publish=yes)
+- ML model analysis - [Click Here](https://colab.research.google.com/drive/18dU0zT0SEvE1LV_me_7e-hX1ccMkxgaL?usp=sharing)
+
 ## 🧩 Project Summary
 
 This project analyzes and predicts customer churn for a telecom company using a blend of SQL, Python (ML), and Tableau.
@@ -30,7 +35,7 @@ SQL queries were used for exploratory data analysis on the raw customer dataset 
 
 **Visuals**:
 **Tableau Story 1** — “Customer Churn Analysis (SQL)”
-👉 [Click Here]
+👉 [Click Here](https://public.tableau.com/app/profile/santhosh.kasam3498/viz/TelcoSQL/Story1)
 
 ## 🤖 Machine Learning (Future Predictions)
 
@@ -67,15 +72,16 @@ The model with the best recall score (**Gradient Boosting**) was selected to min
 - ML output visualized for business interpretation
 
 - Displays churn probability, revenue at risk, and customer-level risk segmentation
-  👉 [Insert Tableau Public link for Story 2]
+  👉 [Click Here](https://public.tableau.com/app/profile/santhosh.kasam3498/viz/TelcoML/Dashboard1)
 
 
-  <img width="1015" height="389" alt="image" src="https://github.com/user-attachments/assets/de5ce3a0-0a1e-4c4c-8706-52ccea612781" />
+<img width="995" height="389" alt="image" src="https://github.com/user-attachments/assets/b8bc684a-b17e-46b5-b7af-df95840d90ca" />
+
 
 
 **🧠 Insight**:
 
-- The model’s predicted churn rate (~26.5%) aligns closely with historical patterns, indicating the model generalizes well.
+- The model’s predicted churn rate (~21.24%) aligns closely with historical patterns, indicating the model generalizes well.
 
 - However, the predicted churn count (1,496) is slightly lower than the past actual churn (1,869), suggesting the model is slightly conservative — it prefers to avoid false alarms rather than over-predict churn.
 
